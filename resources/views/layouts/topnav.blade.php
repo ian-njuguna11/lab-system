@@ -70,6 +70,7 @@
                         <li class="">
                             <a href="{{ url('cd4/sample/dispatch/2') }}">Results List</a>
                         </li>
+
                         <li class="">
                             <a href="{{ url('cd4/reports') }}">Reports</a>
                         </li>
@@ -226,6 +227,7 @@
 
                                     <li class=""> <a href="{{ url($widgets['prefix'] . 'batch') }}">Samples</a> </li>
                                     <li class=""> <a href="{{ url($widgets['prefix'] . 'worksheet') }}">Worksheets</a> </li>
+
                                     <li class=""> <a href="{{ url($widgets['prefix'] . 'batch/index/1') }}">Dispatched Results</a> </li>
 
                                     <li class="dropdown">
@@ -348,6 +350,7 @@
                     <li class="">
                         <a href="{{ url('covidreports') }}">Reports</a>
                     </li>
+
                     <li class="">
                         <a href="{{ url('covidkits/reports') }}">Kits</a>
                     </li>

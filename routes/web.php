@@ -84,6 +84,11 @@ Route::middleware(['auth'])->group(function(){
 // 	return view('addsample');
 // });
 
+
+Route::get('/clientregistry', 'RandomController@allpatients');
+
+Route::get('/searchnow', 'RandomController@searchnow');
+
 Route::get('/config', 'RandomController@config');
 Route::get('/download_notice', 'RandomController@download_notice');
 
